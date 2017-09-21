@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7D043C81F73D62E003F2C63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D043C71F73D62E003F2C63 /* AppDelegate.swift */; };
+		F7D043CA1F73D62E003F2C63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D043C91F73D62E003F2C63 /* ViewController.swift */; };
+		F7D043CD1F73D62E003F2C63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D043CB1F73D62E003F2C63 /* Main.storyboard */; };
+		F7D043CF1F73D62E003F2C63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D043CE1F73D62E003F2C63 /* Assets.xcassets */; };
+		F7D043D21F73D62E003F2C63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D043D01F73D62E003F2C63 /* LaunchScreen.storyboard */; };
+		F7D043DD1F73D62E003F2C63 /* Workshop_s_KubomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D043DC1F73D62E003F2C63 /* Workshop_s_KubomTests.swift */; };
+		F7D043E81F73D62E003F2C63 /* Workshop_s_KubomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D043E71F73D62E003F2C63 /* Workshop_s_KubomUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7D043D91F73D62E003F2C63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7D043BC1F73D62E003F2C63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7D043C31F73D62E003F2C63;
+			remoteInfo = "Workshop-s-Kubom";
+		};
+		F7D043E41F73D62E003F2C63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7D043BC1F73D62E003F2C63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7D043C31F73D62E003F2C63;
+			remoteInfo = "Workshop-s-Kubom";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7D043C41F73D62E003F2C63 /* Workshop-s-Kubom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Workshop-s-Kubom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D043C71F73D62E003F2C63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7D043C91F73D62E003F2C63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7D043CC1F73D62E003F2C63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7D043CE1F73D62E003F2C63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7D043D11F73D62E003F2C63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7D043D31F73D62E003F2C63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D043D81F73D62E003F2C63 /* Workshop-s-KubomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Workshop-s-KubomTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D043DC1F73D62E003F2C63 /* Workshop_s_KubomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workshop_s_KubomTests.swift; sourceTree = "<group>"; };
+		F7D043DE1F73D62E003F2C63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D043E31F73D62E003F2C63 /* Workshop-s-KubomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Workshop-s-KubomUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D043E71F73D62E003F2C63 /* Workshop_s_KubomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workshop_s_KubomUITests.swift; sourceTree = "<group>"; };
+		F7D043E91F73D62E003F2C63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7D043C11F73D62E003F2C63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D043D51F73D62E003F2C63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D043E01F73D62E003F2C63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7D043BB1F73D62E003F2C63 = {
+			isa = PBXGroup;
+			children = (
+				F7D043C61F73D62E003F2C63 /* Workshop-s-Kubom */,
+				F7D043DB1F73D62E003F2C63 /* Workshop-s-KubomTests */,
+				F7D043E61F73D62E003F2C63 /* Workshop-s-KubomUITests */,
+				F7D043C51F73D62E003F2C63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7D043C51F73D62E003F2C63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7D043C41F73D62E003F2C63 /* Workshop-s-Kubom.app */,
+				F7D043D81F73D62E003F2C63 /* Workshop-s-KubomTests.xctest */,
+				F7D043E31F73D62E003F2C63 /* Workshop-s-KubomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7D043C61F73D62E003F2C63 /* Workshop-s-Kubom */ = {
+			isa = PBXGroup;
+			children = (
+				F7D043C71F73D62E003F2C63 /* AppDelegate.swift */,
+				F7D043C91F73D62E003F2C63 /* ViewController.swift */,
+				F7D043CB1F73D62E003F2C63 /* Main.storyboard */,
+				F7D043CE1F73D62E003F2C63 /* Assets.xcassets */,
+				F7D043D01F73D62E003F2C63 /* LaunchScreen.storyboard */,
+				F7D043D31F73D62E003F2C63 /* Info.plist */,
+			);
+			path = "Workshop-s-Kubom";
+			sourceTree = "<group>";
+		};
+		F7D043DB1F73D62E003F2C63 /* Workshop-s-KubomTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7D043DC1F73D62E003F2C63 /* Workshop_s_KubomTests.swift */,
+				F7D043DE1F73D62E003F2C63 /* Info.plist */,
+			);
+			path = "Workshop-s-KubomTests";
+			sourceTree = "<group>";
+		};
+		F7D043E61F73D62E003F2C63 /* Workshop-s-KubomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7D043E71F73D62E003F2C63 /* Workshop_s_KubomUITests.swift */,
+				F7D043E91F73D62E003F2C63 /* Info.plist */,
+			);
+			path = "Workshop-s-KubomUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7D043C31F73D62E003F2C63 /* Workshop-s-Kubom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D043EC1F73D62E003F2C63 /* Build configuration list for PBXNativeTarget "Workshop-s-Kubom" */;
+			buildPhases = (
+				F7D043C01F73D62E003F2C63 /* Sources */,
+				F7D043C11F73D62E003F2C63 /* Frameworks */,
+				F7D043C21F73D62E003F2C63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Workshop-s-Kubom";
+			productName = "Workshop-s-Kubom";
+			productReference = F7D043C41F73D62E003F2C63 /* Workshop-s-Kubom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7D043D71F73D62E003F2C63 /* Workshop-s-KubomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D043EF1F73D62E003F2C63 /* Build configuration list for PBXNativeTarget "Workshop-s-KubomTests" */;
+			buildPhases = (
+				F7D043D41F73D62E003F2C63 /* Sources */,
+				F7D043D51F73D62E003F2C63 /* Frameworks */,
+				F7D043D61F73D62E003F2C63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7D043DA1F73D62E003F2C63 /* PBXTargetDependency */,
+			);
+			name = "Workshop-s-KubomTests";
+			productName = "Workshop-s-KubomTests";
+			productReference = F7D043D81F73D62E003F2C63 /* Workshop-s-KubomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7D043E21F73D62E003F2C63 /* Workshop-s-KubomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D043F21F73D62F003F2C63 /* Build configuration list for PBXNativeTarget "Workshop-s-KubomUITests" */;
+			buildPhases = (
+				F7D043DF1F73D62E003F2C63 /* Sources */,
+				F7D043E01F73D62E003F2C63 /* Frameworks */,
+				F7D043E11F73D62E003F2C63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7D043E51F73D62E003F2C63 /* PBXTargetDependency */,
+			);
+			name = "Workshop-s-KubomUITests";
+			productName = "Workshop-s-KubomUITests";
+			productReference = F7D043E31F73D62E003F2C63 /* Workshop-s-KubomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7D043BC1F73D62E003F2C63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Michaela Janoskova";
+				TargetAttributes = {
+					F7D043C31F73D62E003F2C63 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					F7D043D71F73D62E003F2C63 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F7D043C31F73D62E003F2C63;
+					};
+					F7D043E21F73D62E003F2C63 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F7D043C31F73D62E003F2C63;
+					};
+				};
+			};
+			buildConfigurationList = F7D043BF1F73D62E003F2C63 /* Build configuration list for PBXProject "Workshop-s-Kubom" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7D043BB1F73D62E003F2C63;
+			productRefGroup = F7D043C51F73D62E003F2C63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7D043C31F73D62E003F2C63 /* Workshop-s-Kubom */,
+				F7D043D71F73D62E003F2C63 /* Workshop-s-KubomTests */,
+				F7D043E21F73D62E003F2C63 /* Workshop-s-KubomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7D043C21F73D62E003F2C63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D043D21F73D62E003F2C63 /* LaunchScreen.storyboard in Resources */,
+				F7D043CF1F73D62E003F2C63 /* Assets.xcassets in Resources */,
+				F7D043CD1F73D62E003F2C63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D043D61F73D62E003F2C63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D043E11F73D62E003F2C63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7D043C01F73D62E003F2C63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D043CA1F73D62E003F2C63 /* ViewController.swift in Sources */,
+				F7D043C81F73D62E003F2C63 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D043D41F73D62E003F2C63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D043DD1F73D62E003F2C63 /* Workshop_s_KubomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D043DF1F73D62E003F2C63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D043E81F73D62E003F2C63 /* Workshop_s_KubomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7D043DA1F73D62E003F2C63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7D043C31F73D62E003F2C63 /* Workshop-s-Kubom */;
+			targetProxy = F7D043D91F73D62E003F2C63 /* PBXContainerItemProxy */;
+		};
+		F7D043E51F73D62E003F2C63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7D043C31F73D62E003F2C63 /* Workshop-s-Kubom */;
+			targetProxy = F7D043E41F73D62E003F2C63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7D043CB1F73D62E003F2C63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7D043CC1F73D62E003F2C63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7D043D01F73D62E003F2C63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7D043D11F73D62E003F2C63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7D043EA1F73D62E003F2C63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7D043EB1F73D62E003F2C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7D043ED1F73D62E003F2C63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Workshop-s-Kubom/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "strv.Workshop-s-Kubom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7D043EE1F73D62E003F2C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Workshop-s-Kubom/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "strv.Workshop-s-Kubom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7D043F01F73D62E003F2C63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Workshop-s-KubomTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "strv.Workshop-s-KubomTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Workshop-s-Kubom.app/Workshop-s-Kubom";
+			};
+			name = Debug;
+		};
+		F7D043F11F73D62E003F2C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Workshop-s-KubomTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "strv.Workshop-s-KubomTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Workshop-s-Kubom.app/Workshop-s-Kubom";
+			};
+			name = Release;
+		};
+		F7D043F31F73D62F003F2C63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Workshop-s-KubomUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "strv.Workshop-s-KubomUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Workshop-s-Kubom";
+			};
+			name = Debug;
+		};
+		F7D043F41F73D62F003F2C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Workshop-s-KubomUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "strv.Workshop-s-KubomUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Workshop-s-Kubom";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7D043BF1F73D62E003F2C63 /* Build configuration list for PBXProject "Workshop-s-Kubom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D043EA1F73D62E003F2C63 /* Debug */,
+				F7D043EB1F73D62E003F2C63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D043EC1F73D62E003F2C63 /* Build configuration list for PBXNativeTarget "Workshop-s-Kubom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D043ED1F73D62E003F2C63 /* Debug */,
+				F7D043EE1F73D62E003F2C63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D043EF1F73D62E003F2C63 /* Build configuration list for PBXNativeTarget "Workshop-s-KubomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D043F01F73D62E003F2C63 /* Debug */,
+				F7D043F11F73D62E003F2C63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D043F21F73D62F003F2C63 /* Build configuration list for PBXNativeTarget "Workshop-s-KubomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D043F31F73D62F003F2C63 /* Debug */,
+				F7D043F41F73D62F003F2C63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7D043BC1F73D62E003F2C63 /* Project object */;
+}
